@@ -7,8 +7,8 @@ message(STATUS "Third-party: creating target 'embree::embree'")
 include(FetchContent)
 FetchContent_Declare(
     embree
-    GIT_REPOSITORY https://github.com/embree/embree.git
-    GIT_TAG        v3.13.3
+    GIT_REPOSITORY https://github.com/tweakoz/embree.git
+    GIT_TAG        obt-v3.13.3
     GIT_SHALLOW    TRUE
 )
 
